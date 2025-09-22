@@ -1,14 +1,14 @@
 1. What is the difference between var, let, and const?
    answer:--
-   
-   ##var:
-   var is a function scoped ; it can be re-declared and re-assigned.In modern JavaScript ,var is avoid cause it's can lead to unexpected errors .
 
-   ##let:
-   let is a block scoped; it can not re-declared but can be re-assigned.
-
-##const :
-const is also a block scoped ; it can not re-declared and can not be re-assigned after initialization.
+| Var                                  |   let                    | Const                           |
+|--------------------------------------|--------------------------|---------------------------------|
+|var is a function scoped              | 1.let is a block scoped  | 1.const is also a block scoped  |
+-----------------------------------------------------------------------------------------------------
+|it can be re-declared and re-assigned |  it can not re-declared  | it can not re-declared          |
+|we avoid var                          |   but can be re-assigned | can not be re-assigned          |
+  it can lead to unexpected errors     |                          |after initialization             |
+--------------------------------------------------------------------------------------------------------
 
 2. What is the difference between map(), forEach(), and filter()?
    answer:--
@@ -17,21 +17,19 @@ const is also a block scoped ; it can not re-declared and can not be re-assigned
 
 #forEach():
 It purpose is executes a function for each element in an array.and It returns undefined .
-##filter ():
+##filter():
 filter () also creates a new array but containing only the elements that pass a given condition.
-
----
 
 3. What are arrow functions in ES6?
    answer:--
    ##arrow functions :
 
-arrow functions are a new way to write function introduced in ES6.They provide a shorter and cleaner syntax compared to traditional function expressions.
+arrow functions are a new way to write function introduced in ES6.They provide a shorter and cleaner syntax compared to traditional function expressions.They don't own any arguments.They can't be used as constructor.
 
 4. How does destructuring assignment work in ES6?
 
    answer:--
-   Destructing assignment is a shorthand in ES6 that allows unpacking values from arrays or properties from objects into distinct variables.It offers a more concise and readable way to extract data compared to traditional property access.
+   Destructing assignment is a shorthand in ES6 that allows unpacking values from arrays or properties from objects into distinct variables.It offers a more concise and readable way to extract data compared to traditional property access.It can be used in locations that receive data
 
 5. Explain template literals in ES6. How are they different from string concatenation?
    answer:--
@@ -44,5 +42,5 @@ It allow string interpolation inserting variables or expressions directly inside
 
 ## ##string concatenation:
 
-In the other side string concatenation means joining two or more strings together using + operator . When writing multiple line its need \n or + operator .It becomes messy with long strings .
+On the other side string concatenation means joining two or more strings together using + operator . When writing multiple line its need \n or + operator .It becomes messy with long strings .
 
